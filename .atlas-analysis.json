@@ -1,0 +1,72 @@
+{
+  "projectType": "saas",
+  "projectName": "Match & Cash",
+  "projectDescription": "A mobile puzzle game where players sort and match fashion goods on shelves to earn real cash rewards, redeemable via Cash App, PayPal, Amazon, Walmart, DoorDash, Target, and LEGO gift cards.",
+  "theme": "almond",
+  "primaryColor": "#ef7025",
+  "lightColor": "#eec9bc",
+  "darkColor": "#4fa1ab",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "How to Play",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "how-to-play",
+              "earning-cash"
+            ]
+          },
+          {
+            "group": "Game Mechanics",
+            "pages": [
+              "mechanics/matching",
+              "mechanics/props",
+              "mechanics/coins",
+              "mechanics/daily-missions"
+            ]
+          },
+          {
+            "group": "Rewards & Payouts",
+            "pages": [
+              "rewards/cash-out",
+              "rewards/gift-cards",
+              "rewards/payout-methods"
+            ]
+          },
+          {
+            "group": "Tips & Troubleshooting",
+            "pages": [
+              "tips/strategy",
+              "tips/faq"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Match-3 shelf sorting puzzle gameplay",
+    "Real cash earnings displayed in-game ($471.04 balance shown)",
+    "Cash Out button for instant reward redemption",
+    "Props system: Rearrange All Goods, Remove 3 Goods, Recall One Good",
+    "Daily Missions with cash rewards (e.g., Play 120 minutes → earn $5)",
+    "Coin currency for purchasing props",
+    "Watch ads to earn bonus coins (+30 per ad)",
+    "Multiple payout methods: Cash App, PayPal, Amazon, Walmart, DoorDash, Target, LEGO gift cards",
+    "Progress bar showing level completion percentage (97.4%)",
+    "Prop usage limits (3/3 shown)"
+  ],
+  "publicApiSurface": [
+    "Cash Out flow (balance → payout method selection → reward)",
+    "Props: Rearrange All Goods",
+    "Props: Remove 3 Goods",
+    "Props: Recall One Good of Your Choice",
+    "Daily Missions tracker",
+    "Coin earn via ad watch",
+    "Coin spend on props (100 coins per prop)",
+    "Gift card redemption: Cash App, PayPal, Amazon, Walmart, DoorDash, Target, LEGO"
+  ]
+}
